@@ -118,9 +118,6 @@ function cripto(frase, deslocamento) {
                 }
 
             }
-
-
-
         }
 
     }
