@@ -7,9 +7,8 @@
 }
 
 .container {
-    width: 50%;
+    width: 30vh;
     height: 10vh;
-    position: relative;
     background-color: #53cdb7;
     border-radius: 4px;
     margin: 10px;
@@ -71,7 +70,6 @@ input[type=number]::-webkit-inner-spin-button {
     border: 1px solid #313131;
     display: flex;
     justify-content: center;
-    align-items: center;
     font-weight: bold;
     color: #fff;
     border-radius: 4px;
