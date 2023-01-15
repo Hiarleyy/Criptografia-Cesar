@@ -6,21 +6,6 @@
     box-sizing: border-box;
 }
 
-.container {
-    width: 30vh;
-    height: 10vh;
-    background-color: #53cdb7;
-    border-radius: 4px;
-    margin: 10px;
-    border: 6px inset #0c92ad;
-    color: #130938;
-}
-
-.container>h1 {
-    font-size: 40px;
-    text-align: center;
-}
-
 body {
     background-color: #130938;
     width: 80%;
@@ -29,6 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background: linear-gradient(238deg, #130e25 0%, #2a0a75 80%);
 }
 
 .flex-container>div {
@@ -54,10 +40,10 @@ body {
     font-size: 25px;
     height: 30vh;
     resize: none;
-    background-color: #29007c;
+    background-color: #19073c;
     border-radius: 5px;
     color: #fff;
-    border: 1px solid #1C82AD;
+    border: 1px solid #2f2f2f;
 }
 
 input[type=number]::-webkit-inner-spin-button {
@@ -106,6 +92,7 @@ input[type=number]::-webkit-inner-spin-button {
 
 .info>a {
     text-decoration: none;
+    color: #03C988;
 }
 
 .info {

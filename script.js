@@ -59,7 +59,7 @@ function descripto(frase, deslocamento) {
 
 
                     } else {
-                        frasepronta = `${frasepronta}${alfabeto.get(key-deslocamento)}`
+                        frasepronta = `${frasepronta}${alfabeto.get(valor)}`
                         document.querySelector('#decode').textContent = frasepronta
                     }
 
