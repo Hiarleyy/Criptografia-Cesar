@@ -52,14 +52,11 @@ function descripto(frase, deslocamento) {
                                 }
                                 contador += 1
                             }
-
-
-
                         }
 
 
                     } else {
-                        frasepronta = `${frasepronta}${alfabeto.get(key-deslocamento)}`
+                        frasepronta = `${frasepronta}${alfabeto.get(valor)}`
                         document.querySelector('#decode').textContent = frasepronta
                     }
 
