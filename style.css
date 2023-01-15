@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+    height: 10vh;
+    position: relative;
+    background-color: #53cdb7;
+    border-radius: 4px;
+    margin: 10px;
+    border: 6px inset #0c92ad;
+    color: #130938;
+}
+
+.container>h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+body {
+    background-color: #130938;
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex-container>div {
+    padding: 10px;
+}
+
+.button {
+    height: 6vh;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-color: #03C988;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #130938;
+    font-weight: bold;
+}
+
+.txt_area {
+    font-size: 25px;
+    height: 30vh;
+    resize: none;
+    background-color: #29007c;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #1C82AD;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.span {
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.40);
+    border: 1px solid #313131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 4px;
+    transition: transform 0.5s;
+}
+
+.hide {
+    display: none;
+}
+
+.rodape:hover .span {
+    bottom: 50px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 5px;
+    height: 4em;
+}
+
+.button_code {
+    text-align: center;
+    flex-grow: 2;
+}
+
+.button_decode {
+    flex-grow: 2;
+}
+
+.info>a {
+    text-decoration: none;
+}
+
+.info {
+    text-align: center;
+}
