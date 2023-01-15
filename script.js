@@ -52,9 +52,6 @@ function descripto(frase, deslocamento) {
                                 }
                                 contador += 1
                             }
-
-
-
                         }
 
 
@@ -118,9 +115,6 @@ function cripto(frase, deslocamento) {
                 }
 
             }
-
-
-
         }
 
     }
